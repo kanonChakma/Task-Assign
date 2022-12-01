@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import { Draggable } from "react-beautiful-dnd";
 import { AiFillDelete, AiFillEdit } from "react-icons/ai";
 import { MdDone } from "react-icons/md";
-import { todo } from "../common/model";
-import "./styles.css";
+import { todo } from "../../common/model";
+import "./ShowTodo.css";
 
 interface props {
   index: number;
