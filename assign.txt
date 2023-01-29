@@ -1,0 +1,4 @@
+1.have to add a clock
+2. each section in task will sticky
+3. eack task click it wil open new model
+4. have to add calendar

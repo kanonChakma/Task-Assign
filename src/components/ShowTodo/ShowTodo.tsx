@@ -58,9 +58,16 @@ const ShowTodo: React.FC<props> = ({ todos, toDoData, setToDoData, index }) => {
               onChange={(e) => setEditData(e.target.value)}
             />
           ) : todos.isDone ? (
-            <s className="todos__single--text">{todos.data}</s>
+            <s className="todos__single--text">
+              {index + 1} {". "}
+              {todos.data}
+            </s>
           ) : (
-            <span className="todos__single--text">{todos.data}</span>
+            <span className="todos__single--text">
+              {index + 1}
+              {". "}
+              {todos.data}
+            </span>
           )}
           <div>
             <span
