@@ -67,6 +67,7 @@ const TodoList: React.FC<props> = ({
           </div>
         )}
       </Droppable>
+
       <Droppable droppableId="completedTodos">
         {(provided, snapshot) => (
           <div

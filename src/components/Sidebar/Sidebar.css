@@ -1,0 +1,30 @@
+.side-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  width: 70%;
+  color: white;
+}
+
+.item {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  border: 2px solid rgb(235, 228, 228);
+  padding: 15px 7px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 15px 50px;
+  text-align: center;
+}
+
+.item:hover {
+  font-weight: 500;
+  transition: 0.7s;
+}
+
+@media (max-width: 80rem) {
+  .side-container {
+    width: 90%;
+  }
+}
